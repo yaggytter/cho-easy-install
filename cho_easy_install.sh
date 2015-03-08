@@ -35,12 +35,12 @@ if [ $? -eq 0 ] ; then
   exit 0
 fi
 
-gem install --no-ri --no-rdoc $1
+sudo pip install $1
 if [ $? -eq 0 ] ; then
   exit 0
 fi
 
-pip install $1
+sudo gem install --no-ri --no-rdoc $1
 if [ $? -eq 0 ] ; then
   exit 0
 fi
