@@ -1,5 +1,6 @@
 # cho-easy-install
 very easy install any package tool for beginners
+for Linux and Mac OS X
 
 # Easy use
 ```
@@ -8,6 +9,11 @@ chmod +x ./cho-easy-install
 ./cho-easy-install YouWantPackageName
 ```
 
+## example
+```
+./cho-easy-install fluentd
+```
+
 # TODO
 * support for npm
-* support for pecl
+* support for pecl, pear and composer
